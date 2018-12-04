@@ -1,12 +1,12 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int linear_search(int arr[],int size,int val)
+int linear_search(int arr[], int size, int val)
 {
 
-    for(int i=0; i<size; i++)
+    for (int i = 0; i < size; i++)
     {
-        if(arr[i]==val)
+        if (arr[i] == val)
         {
             return i;
         }
@@ -20,18 +20,18 @@ int main()
     int arr[10000];
     int size;
     int val;
-    cout<<"================================================="<<endl;
-    cout<<"Enter the size of array: ";
-    cin>>size;
-    cout<<"=================================================="<<endl;
-    cout<<"Enter the array elements: "<<endl;
-    for(int i=0;i<size; i++)
+    cout << "=================================================" << endl;
+    cout << "Enter the size of array: ";
+    cin >> size;
+    cout << "==================================================" << endl;
+    cout << "Enter the array elements: " << endl;
+    for (int i = 0; i < size; i++)
     {
-        cin>>arr[i];
+        cin >> arr[i];
     }
-    cout<<"==================================================="<<endl;
-    cout<<"Enter the element to search in the array: ";
-    cin>>val;
-    cout<<"===================================================="<<endl;
-    cout<<linear_search(arr,size,val);
+    cout << "===================================================" << endl;
+    cout << "Enter the element to search in the array: ";
+    cin >> val;
+    cout << "====================================================" << endl;
+    cout << linear_search(arr, size, val);
 }
