@@ -5,11 +5,13 @@ using namespace std;
 
 int main()
 {
-    int t, i = 1, result = 1;
+    int t;
     cin >> t;
     while (t--)
     {
-        int number;
+        long long int number;
+        int i = 1, result = 1;
+        ;
         cin >> number;
         if (number == 0 || number == 1)
             cout << number << endl;
