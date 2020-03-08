@@ -3,7 +3,7 @@ using namespace std;
 
 class Cube
 {
-  public:
+public:
     void setLength(double l)
     {
         length = l;
@@ -33,7 +33,7 @@ class Cube
         return C;
     }
 
-  private:
+private:
     double length;  // Length of a Cube
     double breadth; // Breadth of a Cube
     double height;  // Height of a Cube
@@ -66,5 +66,3 @@ int main()
     cout << "Volume of Cube 3 : " << volume << endl;
     return 0;
 }
-
-

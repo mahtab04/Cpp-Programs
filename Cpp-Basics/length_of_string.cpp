@@ -12,6 +12,7 @@ int length(char input[])
     return count;
 }
 
+
 int main()
 {
     char string[100];
