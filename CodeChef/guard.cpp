@@ -1,5 +1,4 @@
 //Problem Link->"https://www.codechef.com/problems/REMISS"
-
 #include <iostream>
 using namespace std;
 
