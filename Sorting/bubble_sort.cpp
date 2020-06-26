@@ -2,6 +2,13 @@
 using namespace std;
 
 //Bubble Sort
+
+//T.C = O(n^2) ->worst case occurs when array is reversed sorted
+//stable
+//inplace
+//No 0f passes = (n-2)
+
+
 void bubbleSort(int arr[], int size)
 {
     for (int i = 0; i < size - 1; i++)
